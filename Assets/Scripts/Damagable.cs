@@ -4,7 +4,12 @@ using UnityEngine;
 
 public class Damagable : MonoBehaviour
 {
-    public int health;
+    public float health;
+    public float launchDirection;
+    public float launchDistance = 3f;
+    public float launchTime = 2f;
+    public float launchPower = 5f;
+    public float undamagableTime = 3f;
 
     // Start is called before the first frame update
     void Start()
